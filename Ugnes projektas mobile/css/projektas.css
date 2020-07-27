@@ -1,0 +1,546 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+body {
+    background: url(../images/rozinis_blynas.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: initial;
+    background-size: 600px;
+    margin: 0;
+}
+
+/* HEADER */
+
+.fonas {
+    float: right;
+    width: 600px;
+    height: auto;
+}
+
+.site-header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.header-padding {
+    height: 117px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header-container {
+    
+}
+
+.main-logo {
+    padding: 0px;
+    font-size: 1rem;
+    float: left;
+    width: 20%;
+}
+
+.main-logo p {
+    padding: 0px 20px 10px 20px;
+    margin: -20px 0px 0px 0px;
+    display: block;
+    color: #000;
+}
+
+.burger {
+    display: none;
+    padding: 40px 20px;
+    float: right;
+}
+
+.burger-button {
+    width: 30px;
+}
+
+.main-nav {
+    float: right;
+    width: 80%;
+}
+
+.main-nav ul {
+    text-align: right;
+    padding: 47px 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.main-nav a:hover, a:active {
+    color: #ff817e;
+}
+
+.main-nav ul li a {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.flex-container a {
+    display: flex;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    text-decoration: none;
+    padding: 10px 17px;
+    margin: 0 5px;
+}
+
+.flex-container li {
+    display: flex;
+    float: right;
+}
+
+.site-header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* HERO */
+
+.hero .container a {
+    color: #ff817e;
+    text-decoration: none;
+    background-color: #ff817e;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 0.875rem;
+    border: none;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 100px;
+}
+
+section {
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    color: #000;
+    font-size: 1.875rem;
+    line-height: 1.26;
+}
+
+.hero p {
+    font-size: 0.875rem;
+    color: #000;
+}
+
+/* ABOUT US */
+
+.about-us {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 1.875rem;
+    color: #000;
+}
+
+.container .about-us-button {
+    background-color: #ff817e;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 0.875rem;
+    border: none;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.about-us p {
+    font-size: 0.875rem;
+    color: #000;
+}
+
+/* NUOTRAUKOS */
+
+.nuotraukos img {
+    max-width: 250px;
+    height: auto;
+    width: 100%;
+}
+
+.nuotraukos {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* PASLAUGOS */
+
+.paslaugos {
+    background: linear-gradient(50deg, #f3f3f3 50%, #fbd4d7 50%);
+    text-align: center;
+}
+
+.proceduros {
+    display: flex;
+}
+
+.proceduros-item {
+    padding: 30px;
+    margin: 10px 0px;
+    width: 33.33%;
+}
+
+.proceduros h2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.proceduros-destymas h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.proceduros img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.proceduros-item .read-more {
+    background-color: #ff817e;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 0.875rem;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* FORMA */
+
+.registracija {
+    background-color: #f3f3f3;
+}
+
+.registracija-left {
+    width: 40%;
+}
+
+.registracija-forma {
+    width: 60%;
+}
+
+.registracija img {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px 0 0;
+}
+
+.registracija .registracija-holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.registracija-aprasymas {
+    text-align: center;
+}
+
+.registracija .contact-form .input-row {
+    display: flex;
+    padding: 10px 0;
+}
+
+.registracija .contact-form .input-row input {
+    padding: 20px 25px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    width: 50%;
+}
+
+.registracija .contact-form .input-row select {
+    padding: 20px 25px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    width: 50%;
+}
+
+.registracija .contact-form .text-row  {
+    padding: 10px;
+}
+
+.registracija .contact-form .text-row textarea {
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    width: 100%;
+}
+
+.registracija .contact-form .submit-row {
+    padding: 0 10px;
+}
+
+.contact-form input[type=submit] {
+    margin: 10px auto 0;
+    float: right;
+    font-size: 0.875rem;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: #ff817e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+/* APIE MUS puslapis */
+
+.apie-mus {
+    margin-top: -80px;
+    text-align: center;
+}
+
+.baneris {
+    height: 400px;
+    overflow: hidden;
+}
+
+.baneris img {
+    width: 100%;
+    margin-top: -140px;
+}
+
+.apie-mus p {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* PASLAUGOS psl */
+
+.paslaugos-page {
+    margin-top: -80px;
+}
+
+.paslaugos-page h1 {
+    text-align: center;
+}
+
+.paslaugos-skiltis img {
+    width: 250px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.proceduros-destymas {
+    overflow: auto;
+    padding: 20px 0;
+}
+
+/* KONTAKTAI psl */
+
+.kontaktai-page {
+    margin-top: -80px;
+    text-align: left;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo p {
+    padding: 0px 20px 10px 20px;
+    margin: -20px 0px 0px 0px;
+    display: block;
+    color: #000;
+}
+
+.footer-nav ul {
+    text-align: center;
+}
+
+.footer-nav li {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0 10px;
+}
+
+.footer-nav a {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.footer-icons {
+    text-align: center;
+}
+
+.footer-icons svg {
+    height: 20px;
+    width: auto;
+}
+
+.footer-icons a {
+    margin: 0 5px;
+}
+
+.footer-end p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 90px 20px;
+    }
+    
+    .nuotraukos img {
+        max-width: 175px;
+    }
+    
+    .proceduros-item h3 {
+        word-spacing: 40px;
+    }
+    
+    .proceduros-item .read-more {
+        padding: 10px 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .burger {
+        display: block;
+    }
+    
+    .main-nav {
+        width: 100%;
+        display: none;
+    }
+    
+    .nav-active {
+        display: block;
+    }
+    
+    .main-nav ul{
+        padding: 20px 0;
+    }
+    
+    .main-nav ul li {
+        display: block;
+        padding: 10px 10px;
+    }
+    
+    .proceduros {
+        display: block;
+    }
+    
+    .proceduros-item {
+        width: 100%;
+    }
+    
+    .proceduros-item h3 {
+        word-spacing: 0px;
+    }
+    
+    .registracija .registracija-holder {
+        display: block;
+    }
+    
+    .registracija-left {
+        width: 100%;
+    }
+    
+    .registracija img {
+        padding: 0;
+    }
+    
+    .registracija-forma {
+        width: 100%;
+    }
+    
+    .registracija .contact-form .input-row {
+        display: block;
+        padding: 0;
+    }
+    
+    .registracija .contact-form .input-row input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .registracija .contact-form .input-row select {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .registracija .contact-form .text-row {
+        padding: 5px 0;
+    }
+    
+    .baneris {
+        height: 150px;
+    }
+    
+    .proceduros-destymas h2 {
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+    }
+}
